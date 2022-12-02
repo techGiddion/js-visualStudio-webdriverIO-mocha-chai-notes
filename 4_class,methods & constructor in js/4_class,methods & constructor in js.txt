@@ -1,0 +1,23 @@
+//	Class
+>>	A class is a type of object template which contains properties and methods. you can  create a class by using class keyword 
+>>	you can access the class - properties and methods by creating the object of the class 
+
+//Constructor and Methods 
+>>	Constructor is a method which executes by default when you create a object of a class [no need to call it]
+>>	Method is a function which will do the specified steps.
+
+/Share a class among other files.
+>>	Add module.exports before the class 
+	Example: 
+	module.exports = class Channel(){
+	…
+	}
+>>	In the new file by using require set the path of the class file.
+	Example: 
+	const Person = require("./MyClass");
+	Now create a object of the class & use it
+	Example: 
+	let person = new Person(“TechGiddion”,2021)
+	person.getAge(); // getAge method is defined in channel class
+
+

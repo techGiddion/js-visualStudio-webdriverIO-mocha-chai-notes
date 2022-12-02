@@ -1,0 +1,35 @@
+//	What is JavaScript 
+>>	JavaScript is High-Level,Object-Oriented, Multi-Paradigm & often just-in-time compiled Programming language.
+>> 	JavaScript can update and change both HTML and CSS.
+
+//	Different types of data types. 
+>>	In JS a value is either a Reference value [OBJECT] or PRIMITIVE.
+>>	There are 7 different types of primitive data in JS.
+	>> Number: Integer, a floating point value, an exponential value, a ‘NaN’ or a ‘Infinity’. 
+	>> String: Group of characters enclosed by a single or double-quotes or by backticks.
+	>> Boolean: Logical true/false
+	>> Undefined: The variable is declared but doesn’t contain any value	
+	>> Null: A null value means no value
+	>> Symbol: To define a unique value.
+	>> BigINT: A very Large Number
+
+
+//	Dynamic typing 
+>>	JavaScript we do not have to manually define the data type of value stored in variable.
+>>	VALUE has a type not variable.
+
+
+
+ 
+
+
+
+
+	
+
+
+
+
+
+ 
+

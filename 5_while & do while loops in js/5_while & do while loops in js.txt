@@ -1,0 +1,9 @@
+//	loop
+>>	To iterate a part of code multiple times.
+>>	Type of loops : while, do while , for and enhance for loop 
+
+
+//	while & do while loop 
+>>	while loop is used to iterate the defined code multiple times if the iteration is not fixed.
+>>	do while loop is used to iterate the defined code multiple times if the iteration is not fixed and we must execute loop at least once.
+

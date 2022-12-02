@@ -1,0 +1,26 @@
+//	loop
+>>	To iterate a part of code multiple times.
+>>	Type of loops : while, do while , for and enhance for loop 
+
+
+
+//	for loop
+>>	The for statement creates a loop with 3 optional expressions:
+	for (expression 1; expression 2; expression 3) {
+  	// code block to be executed
+	}
+>>	Expression 1 is executed (one time) before the execution of the code block.
+	Expression 2 defines the condition for executing the code block.
+	Expression 3 is executed (every time) after the code block has been executed.
+
+
+//	for of loop
+>>	//The For Of Loop : loops through the value of a object,
+	//we can loop over iterable data structures such as Arrays, Strings, Maps,
+	//NodeLists, and more
+	for (let variable of iterable) {
+	  console.log(value);
+	}
+
+>>	//variable - For every iteration the value of the next property is assigned to the variable. Variable can be declared with const, let, or var.
+	//iterable - An object that has iterable properties.

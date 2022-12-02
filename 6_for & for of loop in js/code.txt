@@ -1,0 +1,26 @@
+//To iterate a part of code multiple times.
+
+// -*structure and component*-
+
+//Initialization:
+//Condition:
+//Increment/Decrement:
+//Statement:
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log("TechGiddion");
+// }
+
+//The For Of Loop : loops through the value of a object,
+//we can loop over iterable data structures such as Arrays, Strings, Maps,
+//NodeLists, and more
+
+//variable - For every iteration the value of the next property is assigned
+// to the variable. Variable can be declared with const, let, or var.
+//iterable - An object that has iterable properties.
+
+let array = [1, 2, 3, 4, 5];
+
+for (let value of array) {
+  console.log(value);
+}

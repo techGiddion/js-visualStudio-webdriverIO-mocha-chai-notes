@@ -1,0 +1,30 @@
+// >>	A class is a type of object template which contains properties and methods.
+// 	Can define by using the class keyword
+// 	We can access the class [properties and methods] by creating the object of the class
+
+// >> 	Constructor is a method which executes by default when you create a object of a class [no need to call it]
+// 	when you declare any properties in constructor they are instance variable.
+
+// >> 	Methods is the function which will do the specified steps
+// 	Need to create a Object of the class to call the methods.
+
+module.exports = class T4 {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+
+  get age() {
+    return 2022 - this.year;
+  }
+
+  mymessage() {
+    console.log(
+      "my channel name is " + this.name + " & its " + this.age + " year old"
+    );
+  }
+};
+
+// let t = new T4("TechGiddion", 2021);
+// t.mymessage();
+// //console.log(t.age);

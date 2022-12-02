@@ -1,0 +1,26 @@
+***Node installation***
+
+1. Open browser and type Download nodejs the below link should be visible [https://nodejs.org/en/download/]
+
+2. Chose the node version>> go to windows based on operating system  >> install the Installer
+
+3. Once the installation is done go add the node home path in system variable
+	>>Edit system variables >> Advance >> new >> 
+	Variable name: Node_Home
+	Variable value : location of nodejs folder [typically C:\Program Files\nodejs\]
+4. Might need to restart the system once, to verify NODEJS installed successfully go to CMD and type node -v [if you are getting the output with node version, its installed]
+
+
+***Visual studio installation***
+
+1. Open browser and type Download Visual studio the below link should be visible [https://code.visualstudio.com/download] 
+
+2. Download for windows or based on the operating system.
+
+3. Once the pakage downloaded , unzip and install.
+   Accept the aggreement >> Next >> Path >> Next >> Select Additional task [selet all the options] >> Next >> Install >> Finsih.
+
+
+
+
+

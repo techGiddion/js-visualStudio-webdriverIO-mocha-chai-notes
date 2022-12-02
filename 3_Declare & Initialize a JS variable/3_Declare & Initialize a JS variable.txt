@@ -1,0 +1,35 @@
+//	KEYWORDS
+>>	Declaration: Creating a variable or in short creating an entity within programme.
+>>	Initialisation : Assigning value to the variable or entity.
+>>	There are four different ways to declare a variable in JS
+	Using keywords : var, let & const Without using keyword.
+
+//	var
+>>	Declare first initialize later or Initialize & declare together.
+	Redeclared and Reinitialize
+	Scope [Global and function level only]
+	while declaring Automatic initialised to undefine
+
+//	let
+>>	Declare first initialize later or Initialize & declare together.
+	Redeclared but not Reinitialize
+	Scope [Global and Block level only]
+ 
+//	const
+>>	Declare & Initialize  together.
+	Neither Re-declared nor Reinitialize
+	Scope [Global and Block level only]
+
+//	without keywords
+>>	A variable initialize but not declared will look for a scope to attach itself to. That means it will traverse up the 
+	food-chain of scope until a variable with the same name is found. 	
+	If none is found, it will be attached to the top-level scope (which is commonly referred to as global)
+
+ 
+
+
+
+
+
+
+
