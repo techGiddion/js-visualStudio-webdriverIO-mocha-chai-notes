@@ -1,0 +1,104 @@
+/*
+>>  	In JS following are the Decision Making statement
+	1. if 
+	2. nested if
+	3. if-else
+	4. if-else-if ladder
+	5. switch
+	6. jump [break,countiue & return]
+*/
+
+//>>	if :  In case condition is true the
+//      block of code inside if statement will be executed.
+
+// let a = 21;
+
+// if (a > 15) {
+//   console.log("Entering in the first if statement");
+
+//   if (a > 20) {
+//     console.log("The value of a is greater then 20");
+//   }
+
+//   if (a < 20) {
+//     console.log("The value of a is less then 20");
+//   }
+// }
+
+// console.log(a);
+
+//>>    nested if: we can use if statements inside if statements as well :
+//			In case condition is true the block of code inside if statement will be executed.
+
+/*
+//>>	if-else: 
+		based on the bollean value of condition [true/false]  
+		condition is true the block of code inside if statement will be executed.
+		condition is false the block of code inside else statement will be executed.
+*/
+
+// let b = 14;
+
+// if (b > 15) {
+//   console.log("The value of b is greater then 15");
+// } else {
+//   console.log("The value of b is less then 20");
+// }
+
+/*>> if-else-if ladder
+		Decision can be made based on multiple options or conditions
+		As soon as any condition is true the block of code inside if statement will be executed and the rest of the ladder will be bypassed
+		If none of the conditions is true, then the final else statement will be executed. 
+
+*/
+
+// let c = 5;
+// if (c == 0) {
+//   console.log("The value of c is 0");
+// } else if (c == 1) {
+//   console.log("The value of c is 1");
+// } else if (c == 2) {
+//   console.log("The value of c is 2");
+// } else {
+//   console.log("The value of c is greater then 2");
+// }
+
+//>> switch	Decision can be made based on multiple options
+
+// let d = 3;
+// switch (d) {
+//   case 0:
+//     console.log("the value of d is 0");
+//     break;
+
+//   case 1:
+//     console.log("the value of d is 1");
+//     break;
+
+//   case 2:
+//     console.log("the value of d is 2");
+//     break;
+
+//   default:
+//     console.log("the value of d is greater then 2");
+// }
+
+/*
+>> jump 
+		break: can be used in switch cases or exiting a loop.
+		countinue: force an early iteration of a loop.
+		return: causes program control to transfer back to the caller of the method.
+
+*/
+
+function mtMethod() {
+  for (let i = 1; i <= 10; i++) {
+    if (i % 2 == 0) {
+      break;
+    }
+
+    console.log(i);
+  }
+  console.log("the end");
+}
+mtMethod();
