@@ -1,0 +1,32 @@
+>> 	What is operator & oprands ?
+	Operator: symbols used to perform operation on operands
+	Operand: A value involved in the operation
+
+
+>> 	In Java-script there are differnt types of operators
+
+	1. Arithmetic Operators
+	2. Comparison (Relational) Operators
+	3. Bitwise Operators
+	4. Logical Operators
+	5. Assignment Operators
+	6. Special Operators
+
+
+>>	Arithmetic Operators : [+,-,*,/,%,++,--]
+
+
+>>	Comparison (Relational) Operators 
+	(== [Is equal to] , === [Identical (equal and of same type)], !=, !== , >,<,>=,<=)
+
+
+>>	JavaScript Logical Operators [&& and || ...etc]
+
+
+>>	JavaScript Bitwise Operators [& and | ...etc]
+
+
+>>	JavaScript Assignment Operators [=,+=,-=,*=,/=,%=]
+
+
+>> 	JavaScript Special Operators [typeof .. etc]
