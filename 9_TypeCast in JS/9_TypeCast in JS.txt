@@ -1,0 +1,24 @@
+>>	Type conversion is the process of converting data of one type to another. For example: converting String data to Number.
+
+	There are two types of type conversion in JavaScript.
+	* Implicit Conversion , automatic type conversion [Type coercion]
+	* Explicit Conversion , manual type conversion
+
+
+>>	Implicit Conversion - automatic type conversion [Type coercion]
+	1. numeric String with + gives string type	
+	2. numeric String with [-,*,/] gives numeric type
+	3. non numeric string with [-,*,/] returns Nan
+	4. if boolean is used, true is 1, false is 0
+	5. undefined with number, boolean or null gives NaN
+
+
+>>	Explicit Conversion - manual type conversion
+	1. numeric String can be converted to number by using Number
+	2. non numeric String can be converted to number by using Number but the results will be NaN always.
+	3. numbers,boolean,null,undefined can be converted to string by using String or using toString();
+	4. nullor or empty string Conversion to Number return 0
+	5. You can also generate numbers from strings using parseInt(), parseFloat(), unary operator + and Math.floor().
+
+
+
