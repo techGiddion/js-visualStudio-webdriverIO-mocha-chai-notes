@@ -1,0 +1,11 @@
+>> 	Learn Truthy and Falsy values in JS? [Type conversion and coercion for Boolean]
+	In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context & a falsy value is vice versa
+
+
+>>	In JS, only 6 values are there which will be converted to false if we convert them to boolean
+	"",null,undefined,NaN,0,false
+
+
+>>	Type coersion converting the value of one dataType to another during the compile time.
+	all above 6 values will convert to false if we use them as a condition.
+

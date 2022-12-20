@@ -1,0 +1,34 @@
+/*
+In JavaScript,  a truthy value is a value that
+                is considered true when encountered in a Boolean context.
+*/
+
+/*
+>>	In JS, only 6 values are there which will be converted to false 
+    if we convert them to boolean
+	"",null,undefined,NaN,0,false
+*/
+
+// console.log(Boolean(""));
+// console.log(Boolean(NaN));
+// console.log(Boolean(undefined));
+// console.log(Boolean(0));
+// console.log(Boolean(null));
+// console.log(Boolean(false));
+// console.log(Boolean(" "));
+
+// console.log(!!"");
+// console.log(!!NaN);
+// console.log(!!null);
+// console.log(!!undefined);
+// console.log(!!0);
+// console.log(!!false);
+// console.log(!!"TechGiddion");
+
+let a = "false";
+
+if (a) {
+  console.log("The value is true");
+} else {
+  console.log("The value is false");
+}
