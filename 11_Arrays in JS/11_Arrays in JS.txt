@@ -1,0 +1,56 @@
+/*
+>>	What is an Array in JS?
+	In JS an array is a variable which can store/hold
+    	different elements like [Number, String, any other data type, object or array]	
+*/
+
+/*
+>> 	Differnt ways to define a JS Array?
+
+	Array literal
+	Creating the instance of Array [By new keyword]
+	Using an Array constructor [By new keyword]
+*/	
+	let array1 = [v1, v2, ...];
+	let array2 = new Array();
+	let array3 - new Array(1,2,3,4,5);
+
+
+/*
+>> 	In JS The length of the array is not fixed , you can increase it at will.
+	To check the length we can use length keyword.
+	
+>>	In JS the index of array starts from 0, hence the last element of an array is at [length-1] position
+*/	
+
+
+>>	Methods for Array
+
+
+/*		
+	>> 	includes() Whether the given array contains the specified element.
+	>>	indexOf() Searches the specified element in the given array and returns the index of the first match.
+*/
+
+/*
+	>>	pop() Removes and returns the last element of an array.
+	>>	shift() Removes and returns the first element of an array.
+*/
+
+/*
+	>>	push() Adds one or more elements to the end of an array & it returns the length
+	>>	unshift()Adds one or more elements in the beginning of the given array.
+*/
+
+/*
+	>>	toString() Converts the elements of a specified array into string form, without affecting the original array.
+*/
+	
+
+/*
+	>>	slice() Returns a new array containing the copy of the part of the given array.
+
+	>>	reverse() It reverses the elements of given array.
+
+	>>	forEach() Invokes the provided function once for each element of an array.
+*/

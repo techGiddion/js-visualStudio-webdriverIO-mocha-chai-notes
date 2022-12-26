@@ -1,0 +1,63 @@
+
+ let array = [true, "TechGiddion", 10, null, NaN, undefined];
+ let array1 = new Array();
+ array1[0] = "10";
+ array1[1] = "Test";
+ array1[2] = 10;
+
+ console.log(array);
+
+ let array2 = new Array(true, false, 10, 20, NaN);
+
+ console.log(array2.length);
+
+  [a,b,c,d,e,f]   6
+  [0,1,2,3,4,5]  L-1 = 5
+
+let array6 = [30, 50, 20, 10, 5];
+let array7 = array6.slice();
+console.log(array6);
+array7.reverse();
+console.log(array7);
+
+array7.forEach((a) => console.log(a));
+
+/*
+	>>	slice() Returns a new array containing the copy of the part of the given array.
+
+	>>	reverse() It reverses the elements of given array.
+
+	>>	forEach() Invokes the provided function once for each element of an array.
+*/
+
+console.log(array6.toString());
+/*
+	>>	toString() Converts the elements of a specified array into string form, without affecting the original array.
+*/
+
+ console.log(array6.push(true));  6
+ console.log(array6.unshift(false));  7
+
+ console.log(array6);
+
+/*
+	>>	push() Adds one or more elements to the end of an array & it returns the length
+	>>	unshift()Adds one or more elements in the beginning of the given array.
+*/
+
+ console.log(array6.pop());  5
+ console.log(array6.shift());  30
+
+ console.log(array6);
+/*
+	>>	pop() Removes and returns the last element of an array.
+	>>	shift() Removes and returns the first element of an array.
+*/
+
+/*		
+	>> 	includes() Whether the given array contains the specified element.
+	>>	indexOf() Searches the specified element in the given array and returns the index of the first match.
+*/
+
+ console.log(array6.includes(200));
+ console.log(array6.indexOf(20));

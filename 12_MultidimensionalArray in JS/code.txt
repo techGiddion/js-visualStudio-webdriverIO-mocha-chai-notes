@@ -1,0 +1,47 @@
+/*
+>> 	A multidimensional array is an array of arrays 
+	basically each element of a multidimensional array is an array itself. 
+      Examples: 2D, 3D , ND..
+*/
+
+//	2D arrays are useful when you want to store data as a
+//   tabular form [table with rows and columns]
+
+// [[1,2],[3,4],[5,6]]
+// elem : row
+// -- col
+
+/*
+        col0    col1
+row0    1       2
+row1    3       4
+row2    5       6
+
+[0] [0]
+[0] [1]
+
+[1] [0]
+[1] [1]
+
+[2] [0]
+[2] [1]
+*/
+
+let array1 = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+
+let cL = array1[0].length;
+let rL = array1.length;
+
+for (let i = 0; i < rL; i++) {
+  for (let j = 0; j < cL; j++) {
+    console.log(array1[i][j]);
+  }
+}
+
+console.log(array1);
+
+console.log(array1[2][0]);
