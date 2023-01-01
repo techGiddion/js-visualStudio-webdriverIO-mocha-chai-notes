@@ -1,0 +1,147 @@
+/*
+>>	String in JS
+ 	String is an object which represents a sequence of characters. 
+*/
+
+/*
+>>	There are two ways to define string in JS
+	1. Using String literal & Template Literals [using double quotes, single quotes & Template Literals use back-ticks (``)]
+	2. Using new keyword.
+*/
+
+/*
+>>	String literal and template literal
+	This way string is created by using double quotes , single quotes 
+    or using back-ticks 
+	example: 
+*/
+
+
+// let value = "NEW###";
+
+
+// let text1 = "TechGiddion-01" + value;
+// let text2 = 'TechGiddion-01'+ value;
+// let text3 = `TechGiddion-01 ${value}`;
+
+/*	
+>>	By new keyword
+	let text2=new String("TechGiddion"); 
+	Here, new keyword is used to create instance of string.
+*/
+
+
+// let text6 = new String("TechGiddion6");
+
+// console.log(text6);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(text1);
+// console.log(text2);
+// console.log(text3);
+
+
+// let text7 = "   TechGiddion-07  ";
+
+
+
+
+
+// console.log(text7.split("-"));
+
+
+// console.log(text7.length);
+
+// console.log(text7.charAt(0));
+
+// console.log(text7.charAt(14));
+
+// console.log(text7);
+// console.log(text7.trim());
+
+// console.log(text7.toUpperCase());
+// console.log(text7.toLowerCase());
+
+// console.log(text7.replace("T","Z"));
+
+
+
+
+let text8 = `My channel name is 
+TechGiddion`;
+console.log(text8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+>>	Methods for String
+	.length()
+	.charAt(index value)
+	.trim()
+	.toLowerCase()
+	.toUpperCase()
+	.replace(The character which needs to be replaced, the character which is the replacement)
+	.split(value for split);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
