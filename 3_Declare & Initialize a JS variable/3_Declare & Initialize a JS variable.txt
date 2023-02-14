@@ -12,7 +12,7 @@
 
 //	let
 >>	Declare first initialize later or Initialize & declare together.
-	Redeclared but not Reinitialize
+	Reinitialize but not Redeclared
 	Scope [Global and Block level only]
  
 //	const
